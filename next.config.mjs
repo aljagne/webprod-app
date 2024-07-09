@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
+
 const nextConfig = {
   images: {
-    remotePatternes: [
+    remotePatterns: [
       {
         protocol: "https",
         hostname: "img.clerk.com",
