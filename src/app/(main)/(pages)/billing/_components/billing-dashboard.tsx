@@ -3,8 +3,8 @@
 import { useBilling } from "@/providers/billing-provider";
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import { SubscriptionCard } from "../_components/subscription-card";
-import CreditTracker from "../_components/creadits-tracker";
+import { SubscriptionCard } from "./subscription-card";
+import CreditTracker from "./creadits-tracker";
 
 type Props = {};
 
